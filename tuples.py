@@ -29,7 +29,3 @@ for yo in phone:
 print(output)
 
 
-#2 EMOJI CONVERTER 
-message = input("<")
-words = message.split(' ')
-print(words)
