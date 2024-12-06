@@ -19,3 +19,4 @@ word_count = {}
 for word in words:
     word_count[word] = word_count.get(word, 0) + 1
 print(word_count)  # Output: {'apple': 2, 'banana': 2, 'orange': 1}
+#3 WORD COUNT
