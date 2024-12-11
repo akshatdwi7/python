@@ -1,5 +1,5 @@
 class Point:
-    def __init__(self, x, y):
+    def __init__(self, x, y): # constructor 
         self.x = x
         self.y = y
 

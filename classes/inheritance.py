@@ -5,10 +5,8 @@ class Mamal:
 
 class Dog(Mamal):
 
-
-
 class Cat(Mamal):
     print("meow")
 
-     cat.walk()
+ cat.walk()
 
