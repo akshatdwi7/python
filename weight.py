@@ -1,9 +1,6 @@
-weight =int(input(" What is your weigth ? "))
+def lbs_to_kg(weight):
+    return weight * 0.453592
 
-unit =input(("is it K(g) OR L(b) ?"))
-if unit.upper() == "L":
-    converted= weight * 0.45
-    print(f"your weight in kg is {converted} kg")
-else:
-    converted = weight / 0.45
-    print(f"your weight in lbs is {converted} lbs")  # this is the same
+def kg_to_lbs(weight):
+    return weight / 0.453592
+    
