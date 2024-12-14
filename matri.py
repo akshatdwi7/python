@@ -5,5 +5,6 @@ matrix = [
     [8, 9, 10]
 ]
 
-matrix.insert([0],68)
+matrix.insert([0],68) 
+
 print(matrix)
