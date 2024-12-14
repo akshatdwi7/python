@@ -4,5 +4,5 @@ from pathlib import Path
 
 # relaive path ,It is from currect file it goes like in decsednig order 
 path =Path()
-for i in path.glob('*.py'):
-    print(i)
+for file in path.glob('*'):
+    print(file)
