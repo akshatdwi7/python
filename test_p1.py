@@ -4,4 +4,5 @@ from pathlib import Path
 
 # relaive path ,It is from currect file it goes like in decsednig order 
 path =Path()
+for i in 
 print(path.glob("*.py")) #mkdir for making direcotry and rmdir for removing directory 

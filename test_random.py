@@ -1,5 +1,6 @@
 import random
 
+
 class Dice:
     def roll(self):
        firstnum= random.randint(1, 6)
